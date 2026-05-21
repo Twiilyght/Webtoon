@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Submundo Ao Céu</title>
+    <style>
+        /* Reset de margens e fundo escuro para destacar a arte */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b0b0b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: sans-serif;
+        }
+
+        /* Container centralizado que limita a largura no desktop e ocupa 100% no mobile */
+        .webtoon-container {
+            width: 100%;
+            max-width: 800px; /* Largura ideal para a maioria das artes de webtoon */
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+        }
+
+        /* O truque de ouro para Webtoons */
+        .webtoon-container img {
+            width: 100%;
+            height: auto;
+            display: block; /* Remove o espaçamento em branco "fantasma" que o HTML deixa abaixo de imagens */
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="webtoon-container">
+        <img src="paginas/01.jpg" alt="Painel 1" loading="lazy">
+        <img src="paginas/02.jpg" alt="Painel 2" loading="lazy">
+        <img src="paginas/03.jpg" alt="Painel 3" loading="lazy">
+        <img src="paginas/04.jpg" alt="Painel 4" loading="lazy">
+    </div>
+
+</body>
+</html>
